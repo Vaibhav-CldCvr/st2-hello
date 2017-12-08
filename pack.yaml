@@ -1,5 +1,5 @@
 ---
-  ref: st2-hello
+  ref: hello_st2
   name: Hello StackStorm
   description: A simple pack containing examples of sensor, rule, and action. 
   keywords:
