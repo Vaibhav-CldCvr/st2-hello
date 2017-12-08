@@ -1,0 +1,13 @@
+---
+name: greet
+pack: hello_st2
+runnner_type: "local-shell-cmd"
+description: Greet StackStorm!
+enabled: true
+entry_point: greet.sh
+parameters:
+      greeting:
+          type: string
+          description: What's new StackStorm
+          required: true
+          position: 1
